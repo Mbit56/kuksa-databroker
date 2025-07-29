@@ -1,0 +1,552 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 17,
+  "total": 17,
+  "issues": [
+    {
+      "id": "30001",
+      "key": "REQ-30001",
+      "fields": {
+        "summary": "VISS Server Interaction Validation Module",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide automated validation capabilities to verify VISS server interactions. When executing test suites, the software will establish connections to VISS servers, send protocol-compliant messages, capture responses, and automatically validate communication patterns against VISS specification requirements to ensure proper server behavior and protocol compliance.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30002",
+      "key": "REQ-30002",
+      "fields": {
+        "summary": "VISS Message Retrieval and Search Engine",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide message retrieval and search functionality to access stored VISS communications. When processing logged message data, the software will implement search algorithms to filter messages by timestamp, message type, signal path, request ID, or content patterns, and return matching results in structured format for analysis and debugging purposes.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30003",
+      "key": "REQ-30003",
+      "fields": {
+        "summary": "VISS Message Transmission Engine",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide message transmission capabilities to send VISS protocol messages to target servers.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30004",
+      "key": "REQ-30004",
+      "fields": {
+        "summary": "VISS Request Message Generator and Sender",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide request message generation and transmission functionality for VISS protocol operations. When executing request-based tests, the software will programmatically generate GET, SET, SUBSCRIBE, and UNSUBSCRIBE requests with specified signal paths, authentication tokens, and request parameters, then transmit these messages and await server responses.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30005",
+      "key": "REQ-30005",
+      "fields": {
+        "summary": "Vehicle Signal Update Simulation Module",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide signal update simulation capabilities to generate realistic vehicle data changes. When test scenarios require dynamic signal data, the software will programmatically generate signal value updates with configurable data types, value ranges, timestamps, and update frequencies to simulate real vehicle signal behavior patterns.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30006",
+      "key": "REQ-30006",
+      "fields": {
+        "summary": "VISS Feature-Specific Testing Framework",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide targeted testing capabilities for specific VISS functionality components.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30007",
+      "key": "REQ-30007",
+      "fields": {
+        "summary": "VISS Protocol Compliance Validation Engine",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide automated protocol compliance testing capabilities against VISS specifications.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30008",
+      "key": "REQ-30008",
+      "fields": {
+        "summary": "Server Capabilities Discovery and Validation Module",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide server capabilities testing functionality to validate capability advertisement and retrieval. When testing server discovery, the software will send capabilities requests, parse JSON responses containing server metadata, validate signal tree structures, and verify advertised authentication methods and protocol versions match actual server behavior.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30009",
+      "key": "REQ-30009",
+      "fields": {
+        "summary": "VISS Data Filtering Test Automation Engine",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide automated testing capabilities for VISS filtering mechanisms. When validating filtering functionality, the software will programmatically apply various filter criteria including path-based filters, value-based filters, and time-based filters to subscriptions and requests, then verify that server responses contain only data matching the specified filter conditions.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30010",
+      "key": "REQ-30010",
+      "fields": {
+        "summary": "VISS Response Validation and Analysis Framework",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide comprehensive response validation capabilities to verify VISS server responses.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30011",
+      "key": "REQ-30011",
+      "fields": {
+        "summary": "VISS Response Data Content Validator",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide data content validation functionality for VISS response payloads. When processing response data, the software will automatically verify data type consistency, validate value ranges against signal specifications, check timestamp formats and sequences, and ensure signal path accuracy to confirm data integrity within responses.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30012",
+      "key": "REQ-30012",
+      "fields": {
+        "summary": "Successful VISS Response Verification Module",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide success response validation capabilities to verify positive response handling.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30013",
+      "key": "REQ-30013",
+      "fields": {
+        "summary": "VISS Error Response Validation Engine",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide error response validation functionality to verify proper error handling. When testing error conditions, the software will automatically validate error status codes, verify error message structure and content, check error code mappings against VISS specifications, and ensure error responses contain appropriate diagnostic information for troubleshooting.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30014",
+      "key": "REQ-30014",
+      "fields": {
+        "summary": "VISS Test Environment Setup and Configuration Module",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide automated test environment preparation capabilities to establish testing prerequisites.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30015",
+      "key": "REQ-30015",
+      "fields": {
+        "summary": "VISS Server Health Check and Status Monitor",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide server status monitoring functionality to verify server operational readiness.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30016",
+      "key": "REQ-30016",
+      "fields": {
+        "summary": "VISS Test Authorization Management System",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide automated authorization handling capabilities for secure VISS testing. When authentication is required, the software will programmatically manage JWT tokens, handle OAuth2 flows, process certificate-based authentication, maintain session credentials, and automatically refresh expired tokens to ensure continuous authorized access during test execution.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30017",
+      "key": "REQ-30017",
+      "fields": {
+        "summary": "VISS Client Connection Manager and Pool Controller",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "created": "2025-07-29T00:00:00.000+0200",
+        "updated": "2025-07-29T00:00:00.000+0200",
+        "description": "The software shall provide client connection management functionality to handle multiple concurrent VISS connections.",
+        "verifiableByCodeOnly": true
+      }
+    }
+  ]
+}
