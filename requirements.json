@@ -1,0 +1,328 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 10,
+  "total": 10,
+  "issues": [
+    {
+      "id": "30005",
+      "key": "SWREQ-1.2",
+      "fields": {
+        "summary": "JWT Decoder Establishment",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "created": "2025-07-29T22:58:10.000-0700",
+        "updated": "2025-07-29T22:58:10.000-0700",
+        "description": "When an enabled authorization state is initialized, THE SOFTWARE Authorization module SHALL BE ABLE TO create a JWT token decoder with the supplied public key.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30006",
+      "key": "SWREQ-1.3",
+      "fields": {
+        "summary": "Invalid Public_Key Detection",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "created": "2025-07-29T22:58:10.000-0700",
+        "updated": "2025-07-29T22:58:10.000-0700",
+        "description": "When the supplied public key is malformed or otherwise invalid, THE SOFTWARE Authorization module SHALL BE ABLE TO return an error indicating an invalid public key.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30007",
+      "key": "SWREQ-1.4",
+      "fields": {
+        "summary": "Return of Enabled Authorization Object",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "created": "2025-07-29T22:58:10.000-0700",
+        "updated": "2025-07-29T22:58:10.000-0700",
+        "description": "Upon successful initialization, THE SOFTWARE Authorization module SHALL BE ABLE TO return an _Authorization::Enabled_ object that contains the initialized JWT token decoder.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30008",
+      "key": "SWREQ-2.1",
+      "fields": {
+        "summary": "Prompt Update _ Connected State",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "created": "2025-07-29T22:58:10.000-0700",
+        "updated": "2025-07-29T22:58:10.000-0700",
+        "description": "When the Kuksa client enters the Connected state, THE SOFTWARE Kuksa-CLI SHALL PROVIDE CLI users WITH THE ABILITY TO see a prompt that clearly indicates the connected status and displays the current software version string so that users immediately recognize successful connectivity.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30009",
+      "key": "SWREQ-2.2",
+      "fields": {
+        "summary": "Prompt Update _ Disconnected State",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "created": "2025-07-29T22:58:10.000-0700",
+        "updated": "2025-07-29T22:58:10.000-0700",
+        "description": "When the Kuksa client enters the Disconnected state, THE SOFTWARE Kuksa-CLI SHALL PROVIDE CLI users WITH THE ABILITY TO see a prompt that clearly indicates loss of connection, enabling rapid recognition of connectivity problems.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30010",
+      "key": "SWREQ-2.3",
+      "fields": {
+        "summary": "Asynchronous Monitoring Task",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "created": "2025-07-29T22:58:10.000-0700",
+        "updated": "2025-07-29T22:58:10.000-0700",
+        "description": "At software start-up, THE SOFTWARE Kuksa-CLI SHALL BE ABLE TO spawn an asynchronous task that performs the continuous connection-state monitoring, ensuring that prompt updates and error handling occur without blocking user interaction.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30011",
+      "key": "SWREQ-2.4",
+      "fields": {
+        "summary": "Error Notification on Subscription Failure",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "created": "2025-07-29T22:58:10.000-0700",
+        "updated": "2025-07-29T22:58:10.000-0700",
+        "description": "Upon failure to subscribe to connection-state updates, THE SOFTWARE Kuksa-CLI SHALL PROVIDE CLI users WITH THE ABILITY TO receive an error message that includes the error details, so users and operators can diagnose and remedy the issue promptly.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30012",
+      "key": "SWREQ-3.1",
+      "fields": {
+        "summary": "Send VISS Read Request",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "created": "2025-07-29T22:58:10.000-0700",
+        "updated": "2025-07-29T22:58:10.000-0700",
+        "description": "[When an external component requests vehicle data] THE SOFTWARE Vehicle Information Service SHALL PROVIDE THE EXTERNAL COMPONENT WITH THE ABILITY TO SEND a VISS _get_ read request.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30013",
+      "key": "SWREQ-3.2",
+      "fields": {
+        "summary": "Create Data_Read Request Object",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "created": "2025-07-29T22:58:10.000-0700",
+        "updated": "2025-07-29T22:58:10.000-0700",
+        "description": "[Upon initiation of a read request] THE SOFTWARE Vehicle Information Service SHALL PROVIDE THE REQUEST_BUILDER COMPONENT WITH THE ABILITY TO CREATE a data_read request object that specifies the action _get_ and the target data path.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "30014",
+      "key": "SWREQ-3.3",
+      "fields": {
+        "summary": "Transmit Read Request to Connected Clients",
+        "issuetype": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+          "id": "100",
+          "description": "A software requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "created": "2025-07-29T22:58:10.000-0700",
+        "updated": "2025-07-29T22:58:10.000-0700",
+        "description": "[After constructing the data_read request object] THE SOFTWARE Vehicle Information Service SHALL PROVIDE THE COMMUNICATION LAYER WITH THE ABILITY TO TRANSMIT the data_read request to all connected clients.",
+        "verifiableByCodeOnly": true
+      }
+    }
+  ]
+}
